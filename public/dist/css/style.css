@@ -1,0 +1,233 @@
+ img#img-log-exam {
+    width: 96px;
+    height: 96px;
+}
+
+
+.question-pager{
+    position: absolute;
+    right: 50%;
+    margin-right: -150px;
+    bottom: 0;
+}
+
+.container-fluid.exam-head {
+    background-image: linear-gradient(-2deg,rgba(254,255,254,1.00)-46%,rgba(21, 79, 108, 1) 101.75%);
+    color: white;
+    text-shadow: 1px 1px black;
+    text-indent: 10px;
+    
+} 
+
+#exam-timer{
+    color: red;
+    text-shadow: none;
+}
+
+#player{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+ 
+
+section#votes {
+    display: flex;
+}
+
+.vote ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.vote.slide-left {
+    position: absolute;
+    display: block;
+    border-radius: 1em;
+    padding: .4em;
+    left: 1em;
+    bottom: 1em;
+}
+
+#votes li {
+    margin: 0px 7px;
+}
+
+section#comments {
+    margin: 0px 7px;
+}
+
+* {
+}
+
+section#votes {}
+
+span#upvotes {
+    display: block;
+}
+
+span#downvotes {
+    display: block;
+}
+
+span#disqus_comment_count {
+    display: block;
+}
+
+ul#main-nav-ul {top: 0;z-index: 1;display: flex;background: #1E3B58;margin-left: 3.5em;}
+
+div#info-block {
+    width: 100%;
+}
+
+ul#top-info {
+    background: rgba(0, 0, 0, 0.64);
+    color: white;
+    right: 0;
+    top: 0;
+    text-shadow: 1px 1px black;
+    position: absolute;
+    padding-top: 2.5em;
+    list-style: none;
+    padding: 2.5em;
+    font-size: .8em;
+    z-index: 1;
+    border-bottom-left-radius: 7em;
+}
+
+a#info-block-btn {
+    position: fixed;
+    right: 1em;
+    z-index: 6;
+    font-size: 1.2em;
+    top: .5em;
+    opacity: .5;
+}
+
+div#countdown {
+    display: inline;
+}
+
+@media(max-width:650px){
+    ul#main-nav-ul{
+        display: block;
+        margin-left: 3.1em;
+    }
+
+}
+
+a#menu-btn {
+    left: 1em;
+    top: .5em;
+    position: fixed;
+    color: white;
+    opacity: .5;
+    font-size: 1.1em;
+    text-shadow: 1px 1px black;
+}
+
+a#menu-btn:hover {
+    opacity: 1;
+}
+
+a#info-block-btn:hover {
+    opacity: 1;
+}
+
+#main-nav-ul a {
+    color: white;
+}
+
+.vote ul:hover {
+    cursor: pointer;
+}
+
+div#common-header {
+    color: white;
+    padding: 1em;
+}
+
+#common-header h1 {
+    color: white;
+}
+
+.subtle-heading {
+    font-weight: 100;
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    text-indent: 1.5em;
+}
+
+input {
+}
+
+label.col-md-4.control-label {
+    color: green;
+    text-align: justify;
+}
+
+.form-control {
+    background-color: #614385;
+    border: 1px solid #0D710D;
+    box-shadow: inset 1px 1px 20px #1F1FA0;
+    color: white!important;
+}
+
+h1.subtle-heading {}
+
+body {
+    background-image: url(/dist/img/header-bg.png);
+}
+
+input:-webkit-autofill {
+    background-color: #34396A!important;
+}
+
+label {
+    color: white;
+}
+
+input[type="checkbox"] {
+    margin-top: 11px;
+}
+
+a.btn.btn-link {
+    color: cornsilk;
+}
+
+a.btn.btn-link {
+    color: rgba(90, 249, 61, 0.91);
+}
+
+button.btn.btn-primary {
+    background: green;
+}
+
+table.table.table-striped.table-hover {
+}
+
+table.table.dashboard {
+    color: white;
+    opacity: 1;
+    text-shadow: none;
+}
+
+blockquote.user {
+    color: white;
+}
+
+a.btn.btn-vs {
+    background: blueviolet;
+}
+
+.dashboard tr {
+}
+
+span.tagline {
+}

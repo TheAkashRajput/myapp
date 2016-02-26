@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: TB
+        psr4_prefix: TB
+        src_path: app
